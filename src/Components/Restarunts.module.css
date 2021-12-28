@@ -1,0 +1,64 @@
+.ul {
+  list-style: none;
+  display: inline;
+  margin-left: -70px;
+}
+
+.li {
+  background-color: white;
+  color: #800040;
+  position: relative;
+  top: 100px;
+  left: 75px;
+  height: 250px;
+  max-width: 260px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #800040; */
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+
+.li:hover {
+  box-shadow: 10px 10px 5px rgb(173, 170, 170);
+  border: 1px solid #800040;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* .divsection {
+  display: flex;
+} */
+
+.RestaruntName {
+  margin: 0;
+  width: 200px;
+  overflow: hidden;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.para {
+  color: grey;
+}
+.address {
+  font-size: 8px;
+}
+
+.loading {
+  float: left;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+ 
+}
+
+.noRestarunts{
+
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+

@@ -1,0 +1,61 @@
+.headerName{
+  padding: 30px;
+}
+
+.searchFeild{
+  margin-left: 170px;
+  width: 500px;
+  color: white;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.searchIcon{
+  color: black;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.searchIcon:hover{
+  cursor: pointer;
+}
+
+
+.dropDownFeild{
+  
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 500px;
+  left: 310.5px;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+  top: 70px;
+}
+
+.dropDownFeild ul{
+  list-style: none;
+}
+.dropDownFeild ul li{
+  margin-left: -40px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+
+.dropDownFeild ul li:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+
+.dropDownFeild::-webkit-scrollbar{
+  display: none;
+}
