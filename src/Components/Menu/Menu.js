@@ -12,7 +12,6 @@ const Menu = ({ menu }) => {
     setSectionName(section_name)
     setOpen(true);
   };
-
   const handleToClose = () => {
     setOpen(false);
   };
