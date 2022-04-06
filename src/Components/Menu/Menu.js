@@ -13,7 +13,6 @@ const Menu = ({ menu }) => {
     setOpen(true);
   };
 
-  console.log("asdsad")
 
   const handleToClose = () => {
     setOpen(false);
